@@ -15,7 +15,7 @@
                         case 2:
                             if (parame.withdraw % 100 != 0)
                             {
-                                return "YOUR CURRENT BALACEN IS ABOVE 100";
+                                return "YOUR CURRENT BALANCE IS ABOVE 100";
                             }
                             else if (parame.withdraw > (parame.amount - 1000))
                             {
