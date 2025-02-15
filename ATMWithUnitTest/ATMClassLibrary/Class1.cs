@@ -6,7 +6,6 @@
         {
             if(parame.pin == 123)
             {
-                int x = 0;
                 while (true)
                 {
                     switch (parame.choice)
