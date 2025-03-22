@@ -1,27 +1,20 @@
-using Allure.NUnit;
-using Allure.NUnit.Attributes;
-
-namespace PageObjectModel
+namespace Data_Driven_Selinium
 {
-    [AllureNUnit]
-    public class TestClass
+    public class Tests
     {
-
         [Test]
-        [AllureStep]
         public void LoginSuccessful()
         {
 
             LoginClass loginClass = new LoginClass();
             loginClass.DriverInitialized();
             loginClass.OpenWindow();
-            loginClass.LoginSuccessful("standard_user", "secret_sauce");
+            loginClass.LoginSuccessful();
             loginClass.CloseWindow();
 
         }
 
         [Test]
-        [AllureStep]
         public void LoginUnSuccessful()
         {
 
@@ -34,20 +27,18 @@ namespace PageObjectModel
         }
 
         [Test]
-        [AllureStep]
         public void CheckoutSuccessful()
         {
             LoginClass loginClass = new LoginClass();
             CheckoutClass checkoutClass = new CheckoutClass();
             checkoutClass.DriverInitialized();
             checkoutClass.OpenWindow();
-            loginClass.LoginSuccessful("standard_user", "secret_sauce");
+            loginClass.LoginSuccessful();
             checkoutClass.AddToCart();
             checkoutClass.CloseWindow();
 
         }
         [Test]
-        [AllureStep]
         public void ShipmentSuccessful()
         {
             LoginClass loginClass = new LoginClass();
@@ -55,9 +46,9 @@ namespace PageObjectModel
             ShipmentClass shipmentClass = new ShipmentClass();
             shipmentClass.DriverInitialized();
             shipmentClass.OpenWindow();
-            loginClass.LoginSuccessful("standard_user", "secret_sauce");
+            loginClass.LoginSuccessful();
             checkoutClass.AddToCart();
-            shipmentClass.ShipInfo("ABC", "XYZ", "75800");
+            shipmentClass.ShipInfo();
             shipmentClass.OrderPlace();
             shipmentClass.CloseWindow();
 
