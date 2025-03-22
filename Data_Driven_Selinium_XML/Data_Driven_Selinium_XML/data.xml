@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<username>standard_user</username>
+	<password>secret_sauce</password>
+	<url>https://www.saucedemo.com</url>
+	<expectedproducttext>Products</expectedproducttext>
+	<orderconfirmationtext>Thank you for your order!</orderconfirmationtext>
+	<firstname>Morris</firstname>
+	<lastname>Jhon</lastname>
+	<zipcode>56981</zipcode>
+	<orderNoConfirmed>SauceCard #31337</orderNoConfirmed>
+	<expectedcheckouttext>Checkout: Your Information</expectedcheckouttext>
+</root>
