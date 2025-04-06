@@ -1,0 +1,18 @@
+{
+  "url": "https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login",
+  "expectedValueCustomerlogin": "Welcome Hermoine Granger !!",
+  "firstname": "Morris",
+  "lastname": "Jhon",
+  "postcode": "56981",
+  "expectedAlertAfterAddcustomer": "Customer added successfully with customer id",
+  "expectedAlertAfterOpenAccount": "Account created successfully with account Number",
+  "searchfor": "Morris",
+  "amountDeposited": "100",
+  "expectedResultforDeposited": "Deposit Successful",
+  "amountWithdrawl": "100",
+  "validExpectedResultforWithdrawl": "Transaction successful",
+  "invalidamountWithdrawl": "6000",
+  "invalidExpectedResultforWithdrawl": "Transaction Failed. You can not withdraw amount more than the balance.",
+  "startDate": "2015-01-01T00:00",
+  "endDate": "2015-01-03T17:30"
+}
