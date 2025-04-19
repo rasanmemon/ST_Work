@@ -1,0 +1,15 @@
+{
+  "username": "standard_user",
+  "password": "secret_sauce",
+  "invalidusername": "standard_user2",
+  "invalidpassword": "secret_sauce2",
+  "url": "https://www.saucedemo.com",
+  "expectedproducttext": "Products",
+  "expectedproducttextForinvalid": "Epic sadface: Username and password do not match any user in this service",
+  "orderconfirmationtext": "Thank you for your order!",
+  "firstname": "Morris",
+  "lastname": "Jhon",
+  "zipcode": "56981",
+  "orderNoConfirmed": "SauceCard #31337",
+  "expectedcheckouttext": "Checkout: Your Information"
+}
