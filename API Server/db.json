@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Software Testing",
+      "marks": 100
+    },
+    {
+      "id": "2",
+      "title": "SPM",
+      "marks": 100
+    },
+    {
+      "id": "3",
+      "title": "Research Methodology",
+      "marks": 100
+    }
+  ]
+}
